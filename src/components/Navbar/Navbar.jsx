@@ -20,17 +20,21 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active color ms-5"
+                aria-current="page"
+                href="#"
+              >
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link color" href="#">
                 HOT DEALS
               </a>
             </li>
           </ul>
-          <a className="nav-link me-5" href="#">
+          <a className="nav-link me-5 color" href="#">
             العربية
           </a>
           <button className="btn text-danger text-bold me-3">SIGN IN</button>

@@ -11,7 +11,7 @@ const GymCard = ({ gym }) => {
           alt="Card image cap"
         />
         <div className="card-body">
-          <p className="card-text">{gym["name"]}</p>
+          <p className="card-text text-center">{gym["name"]}</p>
         </div>
         {gym["is_hot_deal"] === true && (
           <div className="card-footer bg-success text-white border rounded-bottom-5  border-white">

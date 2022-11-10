@@ -13,3 +13,6 @@ body,
 p {
   font-weight: bold;
 }
+.color {
+  color: #5614cf !important;
+}

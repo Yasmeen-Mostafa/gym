@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import GymList from "./components/GymList/GymList";
 import Header from "./components/Header/Header";

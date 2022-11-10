@@ -6,9 +6,9 @@ const Footer = () => {
       <figure className="footer__figure mb-0 me-3 ">
         <img src={footerImg} className="img-fluid my-auto" />
       </figure>
-      <p className="my-auto text-white">
+      <h6 className="my-auto text-white">
         © 2020 ALGYM All Rights Reserved.Developed by INOVA LLC
-      </p>
+      </h6>
     </footer>
   );
 };
